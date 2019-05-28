@@ -1,0 +1,17 @@
+.qrcode-text-btn {
+text-align: center;
+display: inline-block;
+height: 7em;
+width: 7em;
+background: url(photo-camera.png) no-repeat;
+cursor: pointer;
+background-size: 100%;
+}
+
+.qrcode-text-btn > input[type=file] {
+  position: absolute;
+  overflow: hidden;
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+}
